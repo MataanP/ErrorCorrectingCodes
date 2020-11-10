@@ -19,5 +19,6 @@ if __name__ == '__main__':
     mode = img.mode
     size = img.size
     data = img.tobytes()
+    print(data)
 
     Image.frombytes(mode,size, data).show()
